@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* Choose a clean font */
+    font-size: 16px;
+    color: #333; /* Standard dark text */
+    background-color: #f4f4f4; /* Light gray background */
+    line-height: 1.6; /* Better readability */
+}
