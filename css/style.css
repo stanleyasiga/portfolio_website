@@ -4,10 +4,98 @@
     padding:0
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Arial', sans-serif; /* Choose a clean font */
     font-size: 16px;
     color: #333; /* Standard dark text */
     background-color: #f4f4f4; /* Light gray background */
     line-height: 1.6; /* Better readability */
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;  /* browser defines the height */
+    display: block;  /* Standard dark text */
+}
+
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+button {
+    cursor: pointer;
+    border: none;
+    padding: 0.5rem 1rem;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 20px; /* top-right-bottom-left*/
+    /* background-color: #333; */
+}
+
+nav {
+    display: flex;
+    gap:15px;
+}
+
+.frontend-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  header{
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* not seeing the use probably if you have soem text.*/
+  }
+  nav {
+    margin-top: 10px;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
 }
