@@ -9,8 +9,11 @@ html{
 }
 
 body {
-    font-family: 'Arial', sans-serif; /* Choose a clean font */
+    font-family: "Roboto", serif; /* Choose a clean font */
     font-size: 16px;
+    font-optical-sizing: auto;
+    font-weight:350;
+    font-style: normal;
     color: #333; /* Standard dark text */
     background-color: #f4f4f4; /* Light gray background */
     line-height: 1.6; /* Better readability */
@@ -121,22 +124,33 @@ nav {
   }
 
   .reviews {
+    padding: 30px;
     max-width: 100%;
-    margin: 20px auto;
-    padding: 20px;
-  }
+}
+.reviews h3 {
+  text-align: center;
+  font-size: 24px;
+  font-style: italic;
+  margin-bottom: 20px;
+  color: #333;
+}
 
-  .reviews > h3 {
-    text-align: center;
-    margin-bottom: 15px;
-  }
+.review-items{
+  display: flex;
+  flex-direction: row;
+}
 
-.review-one .review-two .review-three {
-    background: #f9f9f9;
-    display: flex;
-    padding: 15px;
-    margin-bottom: 10px;
-  }
+.review-one, .review-two, .review-three {
+  background-color: #fff;
+  padding: 20px;
+  margin:10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 60%;
+}
+
+
   
 
 /* Extra small devices (phones, 600px and down) */
@@ -152,6 +166,15 @@ nav {
 main{
     flex-direction: column;
  }
+
+ .review-items{
+  flex-direction: column;
+}
+
+.review-one, .review-two, .review-three {
+  max-width: 100%;
+  margin: 5px;
+}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
