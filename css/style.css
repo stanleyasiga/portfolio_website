@@ -26,16 +26,6 @@ body {
 }
 
 
-a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-
 button {
     cursor: pointer;
     border: none;
@@ -148,6 +138,12 @@ nav {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 60%;
+}
+
+.contact-us{
+  background-color: #fff;
+  box-shadow: 5px 5px 5px #aaaaaa;
+
 }
 
 
