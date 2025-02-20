@@ -143,11 +143,10 @@ nav {
 .contact-us{
   background-color: #fff;
   box-shadow: 5px 5px 5px #aaaaaa;
-
+  max-width: 50%;
+  
 }
 
-
-  
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
