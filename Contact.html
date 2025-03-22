@@ -39,30 +39,41 @@
 
     </header>
     <section class="contact-us">
-        <div class="contact-us-details">
-            <h3 id="contact-us-title">Contact Us</h3>
-            <p class="contact-us-description">Got a question? We'd love to hear from you.Send us a message and we'll
-                respond
-                as soon as possible.</p>
-        </div>
-
+        <p class="contact-us-description">Love to hear from you, Get in touch 👋</p>
         <form method="post" action="/formFunction">
             <div>
-                <label>Name</label>
-                <input type="text" name="name" placeholder="Name" />
+                <label> Your Name</label>
+                <input type="text" name="name" placeholder="Your Name" />
             </div>
 
             <div>
-                <label>Email</label>
-                <input type="email" name="email" placeholder="Email" />
+                <label>Your Email</label>
+                <input type="email" name="email" placeholder="Your Email" />
             </div>
 
+            <div>
+                <label>What are you interested in: </label>
+                <select name="interests">
+                    <option>Select your interest</option>
+                    <option>Digital Branding</option>
+                    <option>Social Marketing</option>
+                    <option>Other</option>
+                </select>
+            </div>
+            <div>
+                <label>Project Budget: </label>
+                <select name="budget">
+                    <option>Select your budget</option>
+                    <option> 100M </option>
+                    <option> 250M </option>
+                </select>
+            </div>
             <div>
                 <label>Message: </label>
-                <textarea name="message" placeholder="Message">
+                <textarea name="message" rows="4" cols="50" placeholder="Write your message here..."></textarea>
             </div>
             <div>
-                <button type="submit" class="form-button">Submit</button>
+                <button type="submit" class="form-button">Just Send</button>
             </div>
         </form>
 
